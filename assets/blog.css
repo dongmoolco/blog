@@ -5,15 +5,11 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 }
 
-.contents {
-	margin: 10px 0px;
-	padding: 20px;
-	border: 1px solid lightgray;
-}
 .contents h2 {
+	color: #333;
 	font-size: 26px;
-	font-weight: 500;
-	margin: 0px;
+	font-weight: 600;
+	margin-bottom: 12px;
 	padding-bottom: 10px;
 }
 .contents p {
@@ -24,16 +20,41 @@ body {
 .tag-wrapper {
 	margin-bottom: 20px;
 }
+.post-row {
+	border-bottom: 1px solid lightgray;
+	margin: 20px;
+}
 .post-tag-name {
 	color: #1abc9c;
 }
 .btn {
-	background-color: transparent;
+	background: transparent;
 	color: #bbb;
 	border: 1px solid #ccc;
-	font-weight: 400;
-	border-radius: 0px;
+	font-weight: 100;
+	border-radius: 100px;
+	margin-bottom: 20px;
+	margin-right: 2px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	
 }
+.btn:hover {
+	background: transparent;
+	color: #666;
+	border: 1px solid #666;
+}
+.btn-create-post {
+	border-radius: 0;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+	background: #000;
+}
+
 
 
 
