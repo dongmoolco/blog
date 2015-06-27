@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ddefault</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+        <!-- GITML SDK for entire page -->
+        <script id="gitml-sdk" src="http://www.gitml.com/sdk.js?host_id=2&amp;version=0.1"></script>
+    </head>
+    <body>
+        <h1 class="text-center">Hello World</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul class="list-group">
+                        <il class="list-group-item">test</il>
+                        <il class="list-group-item">test</il>
+                        <il class="list-group-item">test</il>
+                    </ul>
+                </div>
+
+                <div class="col-sm-8">
+                    <h2>Posts</h2>
+                    <div id="test" class="post-template"  data-limit="10" data-category="" data-q="">
+                        <a class="btn btn-primary btn-create-post">Create post</a>
+                        <div class="post-row">
+                            <div>
+                                <span class="post-created"></span>
+                                <span class="post-username"></span>
+                                <span class="post-userid"></span>
+                                <span class="post-hits"></span>
+                            </div>
+                            <div class="post-title"></div>
+                            <div class="post-content"></div>
+                            <div>
+                                <a class="post-tag-row">
+                                    <span class="post-tag-name"></span>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="btn btn-xs btn-default btn-update-post">Update</a>
+                                <a class="btn btn-xs btn-default btn-delete-post">Delete</a>
+                            </div>
+                            <hr>
+                        </div>
+                        <a class="btn btn-default btn-block btn-more-posts">more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
