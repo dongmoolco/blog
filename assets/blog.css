@@ -58,6 +58,11 @@ body {
 	font-size: 18px;
 	background: #000;
 }
+.post-created {
+	display: block;
+	color: #bbb;
+	font-size: 14px;
+}
 
 
 
