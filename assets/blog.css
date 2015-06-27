@@ -28,6 +28,7 @@ body {
 	color: #1abc9c;
 }
 .btn {
+	font-family: 'Noto Sans', sans-serif;
 	background: transparent;
 	color: #bbb;
 	border: 1px solid #ccc;
