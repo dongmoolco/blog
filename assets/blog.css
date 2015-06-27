@@ -24,3 +24,17 @@ body {
 .tag-wrapper {
 	margin-bottom: 20px;
 }
+.post-tag-name {
+	color: #1abc9c;
+}
+.btn {
+	background-color: transparent;
+	color: #bbb;
+	border: 1px solid #ccc;
+	font-weight: 400;
+	border-radius: 0px;
+}
+
+
+
+
